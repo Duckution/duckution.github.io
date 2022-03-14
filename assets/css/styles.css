@@ -1,5 +1,9 @@
+@font-face { font-family: linjasike5; src: url(https://wyub.github.io/tokipona/linja-sike-5.otf); }
+
 .link { text-decoration: none; }
 
 .link:hover { text-decoration: underline; }
+
+.tokipona { font-family: linjasike5; font-size: 20px; }
 
 /*# sourceMappingURL=styles.css.map */

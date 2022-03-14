@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Blog</title>
+    <title>Toki Pona</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
@@ -48,23 +48,26 @@
 
     <!-- Body content from page -->
     <div class="container-fluid p-4">
-      <h1>Latest Posts</h1>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<ul>
-  
-    <li>
-      <h2><a href="/2022/03/14/tokipona.html">Toki Pona</a></h2>
-      <p>toki! mi waso soko. ni li lipu mi. mi toki insa e ni: mi toki lon seme? mi sona ala. ni la mi wile kama sona e ijo sin. mi kama sona la mi ken toki lon ona a. taso, tenpo pi alasa sona li kama la pali mute a li lon. mi wile e tenpo mute, taso tenpo lili li lon. ni li ike, taso ona li sama tawa jan ale. mi tawa lape.</p>
+<h2>Toki Pona</h2>
+<h6 class="text-muted">Created on 14 Mar 2022 by Duck.</h6>
+<h6 style="font-weight: bold;"> <a href="#" onclick="javascript:changeFont();">Click here</a> to switch between sitelen pona and the latin alphabet!</h6>
 
-    </li>
-  
-    <li>
-      <h2><a href="/2022/02/22/test.html">Test post</a></h2>
-      <p>Hello! This is just a test post.</p>
+<span id="body-span" class="tokipona">
+	<p>toki! mi waso soko. ni li lipu mi. mi toki insa e ni: mi toki lon seme? mi sona ala. ni la mi wile kama sona e ijo sin. mi kama sona la mi ken toki lon ona a. taso, tenpo pi alasa sona li kama la pali mute a li lon. mi wile e tenpo mute, taso tenpo lili li lon. ni li ike, taso ona li sama tawa jan ale. mi tawa lape.</p>
 
-    </li>
-  
-</ul>
+</span>
+
+<script>
+function changeFont() {
+	if (!$("#body-span").hasClass("tokipona")) {
+		$("#body-span").addClass("tokipona");
+	} else {
+		$("#body-span").removeClass("tokipona");
+	}
+}
+</script>
     </div>
 
     <!-- Common footer -->

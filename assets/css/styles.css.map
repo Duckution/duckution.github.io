@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import \"main\";\n",
-		".link {\n\ttext-decoration: none; }\n\n.link:hover {\n\ttext-decoration: underline; }\n"
+		"@font-face {\n\tfont-family: linjasike5;\n\tsrc: url(https://wyub.github.io/tokipona/linja-sike-5.otf); }\n\n.link {\n\ttext-decoration: none; }\n\n.link:hover {\n\ttext-decoration: underline; }\n\n.tokipona {\n\tfont-family: linjasike5;\n\tfont-size: 20px; }\n"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,KAAK,CAAC,EACL,eAAe,EAAE,IAAI,GAAG;;AAEzB,AAAA,KAAK,CAAC,KAAK,CAAC,EACX,eAAe,EAAE,SAAS,GAAG"
+	"mappings": "ACAA,UAAU,GACT,WAAW,EAAE,UAAU,EACvB,GAAG,EAAE,qDAAqD;;AAE3D,AAAA,KAAK,CAAC,EACL,eAAe,EAAE,IAAI,GAAG;;AAEzB,AAAA,KAAK,CAAC,KAAK,CAAC,EACX,eAAe,EAAE,SAAS,GAAG;;AAE9B,AAAA,SAAS,CAAC,EACT,WAAW,EAAE,UAAU,EACvB,SAAS,EAAE,IAAI,GAAG"
 }
